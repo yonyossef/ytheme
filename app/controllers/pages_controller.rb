@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   def show
     respond_to do |format|
       format.js
-      format.html {render 'about'}
+      format.html {render 'home'}
     end
   end
 end
